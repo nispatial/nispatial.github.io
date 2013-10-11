@@ -1,8 +1,9 @@
 {
   "dependencies": {
-    "moment": "2.x",
-    "underscore": "1.4.x",
-    "typogr": "0.5.x"
+    "wintersmith-browserify": "*",
+    "wintersmith-less": "*",
+    "wintersmith-nunjucks": "*",
+    "browsernizr": "*"
   },
-  "repository": "https://github.com/nispatial/website"
+  "repository": "none"
 }

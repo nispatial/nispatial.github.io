@@ -1,27 +1,14 @@
 {
-  "jade": {
-    "pretty": true
-  },
-  "markdown": {
-    "smartLists": true,
-    "smartypants": true
-  },
   "locals": {
-    "url": "http://localhost:8080",
-    "name": "NI Spatial",
-    "owner": "NI Spatial, LLC",
-    "description": "Consulting, design, and development from a spatial perspective"
+    "name": "The next big thing",
+    "url": "http://awesomeapp.com/",
+    "description": "Forget about drag'n'drop, this is where it's at!",
+    "keywords": "awesome, fast, snappy, instant, horse, pony, unicorn"
   },
   "output": "../",
-  "paginator": {
-    "perPage": 3
-  },
   "plugins": [
-    "./plugins/paginator.coffee"
-  ],
-  "require": {
-    "moment": "moment",
-    "_": "underscore",
-    "typogr": "typogr"
-  }
+    "wintersmith-browserify",
+    "wintersmith-less",
+    "wintersmith-nunjucks"
+  ]
 }
