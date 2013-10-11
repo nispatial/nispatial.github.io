@@ -1,0 +1,27 @@
+{
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "NI Spatial",
+    "owner": "NI Spatial, LLC",
+    "description": "Consulting, design, and development from a spatial perspective"
+  },
+  "output": "../",
+  "paginator": {
+    "perPage": 3
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  }
+}

@@ -1,4 +1,4 @@
-website
-=======
 
-The website for NI Spatial.
+# Blog
+
+The default [wintersmith](https://github.com/jnordberg/wintersmith) template
