@@ -1,9 +1,10 @@
 {
   "dependencies": {
+    "browsernizr": "*",
+    "moment": "2.x",
+    "underscore": "1.4.x",
     "wintersmith-browserify": "*",
-    "wintersmith-less": "*",
-    "wintersmith-nunjucks": "*",
-    "browsernizr": "*"
+    "wintersmith-nunjucks": "*"
   },
-  "repository": "none"
+  "repository": "https://github.com/nispatial/nispatial.github.io.git"
 }

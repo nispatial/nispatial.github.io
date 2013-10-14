@@ -1,14 +1,17 @@
 {
   "locals": {
-    "name": "The next big thing",
-    "url": "http://awesomeapp.com/",
-    "description": "Forget about drag'n'drop, this is where it's at!",
-    "keywords": "awesome, fast, snappy, instant, horse, pony, unicorn"
+    "description": "NI Spatial does design and development work with a spatial focus.",
+    "keywords": "Consulting, development, design, digital, media, map, geo, spatial, big data, cartography, geocode, route.",
+    "name": "NI Spatial",
+    "url": "http://nispatial.com/"
   },
   "output": "../",
   "plugins": [
     "wintersmith-browserify",
-    "wintersmith-less",
     "wintersmith-nunjucks"
-  ]
+  ],
+  "require": {
+    "_": "underscore",
+    "moment": "moment"
+  }
 }
