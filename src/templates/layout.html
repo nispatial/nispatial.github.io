@@ -12,22 +12,22 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <div id="wrap">
-      <div class="header-container">
-        <header class="wrapper clearfix">
-          <h1 class="title">{{ name }}</h1>
-        </header>
-      </div>
-      <div class="main-container">
-        <div class="main wrapper clearfix">{% block body %}{% endblock %}</div>
-      </div>
+    <div class="push">
+      <header class="wrapper clearfix">
+        <h1 class="title">{{ name }}</h1>
+      </header>
+      <main class="wrapper clearfix">{% block body %}{% endblock %}</div>
     </div>
-    <div class="footer-container">
-      <footer class="wrapper">
-        <!--<h3>{{ moment.utc(page.date).format('YYYY') }}</h3>-->
-        <h3><a href="mailto:hi@nispatial.com">Get in touch</a></h3>
-      </footer>
-    </div>
+    <footer class="wrapper">
+      <ul>
+        <li><a href="mailto:hi@nispatial.com">Contact</a></li>
+        <li><a href="http://twitter.com/nispatial">Twitter</a></li>
+        <li><a href="http://github.com/nispatial">GitHub</a></li>
+      </ul>
+      <span>
+        <p>Copyright © {{ moment(page.date).format('YYYY') }} NI Spatial</p>
+      </span>
+    </footer>
     <script src="/js/main.js"></script>
     <script>
       var _gaq=[['_setAccount','UA-7697519-1'],['_setDomainName', 'nispatial.com'],['_trackPageview']];
